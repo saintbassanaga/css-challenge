@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Design</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .item {
+            background: lightblue;
+            padding: 20px;
+            text-align: center;
+            font-size: clamp(1rem, 2.5vw, 2rem);
+        }
+    </style>
+</head>
+<body>
+    <section class="loginSection">
+        <form>
+            <div class="loginHeader">
+                <h1>Login Form</h1>
+            </div>
+            <div class="formBody">
+                <label for="name"></label><input type="text" name="username" id="name" placeholder="username">
+                <label for="password"></label><input type="password" name="password" id="password" placeholder="password">
+                <span class="error"></span>
+            </div>
+            <div class="formFooter">
+                <input type="submit" value="Sign In" onclick="">
+            </div>
+        </form>
+    </section>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+
+
+
+</body>
+</html>

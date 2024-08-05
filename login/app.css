@@ -1,0 +1,53 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    font-family: "Fira Code Medium", sans-serif;
+    font-size: 15px;
+
+}
+
+section {
+    display: grid;
+    place-items: center;
+    height: 55%;
+    width: 45%;
+    border-radius: 15px;
+
+    background-color: lightblue;
+}
+
+form {
+    display: grid;
+    place-items: center;
+}
+
+.formBody {
+    display: grid;
+    place-items: flex-end;
+    justify-content: space-between;
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+input[type=text] , input[type=password] {
+    width: 150px;
+    height: 25px;
+    margin: 0.7rem;
+}
+input::placeholder {
+    font-style: oblique;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+input{
+    border-radius: 7px;
+    border: none;
+}

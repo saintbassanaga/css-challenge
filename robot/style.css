@@ -21,7 +21,6 @@ section {
 
 .head {
     display: flex;
-    flex-direction: column;
     width: 60px;
     height: 70px;
     border-radius: 50%;
@@ -74,4 +73,10 @@ section {
 
 .right {
     rotate: -31deg;
+}
+
+.leftEyes, .rightEyes{
+    background-color: #0b0303;
+    width: 7px;
+    height: 6px;
 }
