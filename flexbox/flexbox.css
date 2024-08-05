@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    font-size: 12px;
+   justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    background: tomato;
+    display: flex;
+    width: 70%;
+    height: 70%;
+    border: 2px solid green ;
+    border-radius: 7px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    &:after {
+        background: blue;
+    }
+}
+.child{
+    height: 40%;
+    width: 40%;
+    font-size: 1.2rem;
+    border: 1px blue;
+    background: lemonchiffon;
+}
